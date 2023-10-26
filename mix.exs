@@ -22,7 +22,7 @@ defmodule Algolia.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :hackney, :jason]]
+    [applications: [:logger, :hackney]]
   end
 
   defp deps do
